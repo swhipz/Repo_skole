@@ -1,8 +1,8 @@
-package no.hiof.oleedvao.oblig2.models;
+package no.hiof.fredrjen.oblig2.models;
 
 import java.util.ArrayList;
 
-public class PlanetSystem {
+public class PlanetSystem{
     private String name;
     private Star centerStar;
     private ArrayList<Planet> planets;

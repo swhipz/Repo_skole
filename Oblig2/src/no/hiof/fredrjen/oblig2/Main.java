@@ -1,8 +1,8 @@
-package no.hiof.oleedvao.oblig2;
+package no.hiof.fredrjen.oblig2;
 
-import no.hiof.oleedvao.oblig2.models.Planet;
-import no.hiof.oleedvao.oblig2.models.PlanetSystem;
-import no.hiof.oleedvao.oblig2.models.Star;
+import no.hiof.fredrjen.oblig2.models.Planet;
+import no.hiof.fredrjen.oblig2.models.PlanetSystem;
+import no.hiof.fredrjen.oblig2.models.Star;
 
 import java.util.ArrayList;
 

@@ -1,10 +1,10 @@
-package no.hiof.oleedvao.oblig2.models;
+package no.hiof.fredrjen.oblig2.models;
 
-public class Star {
+public class Star extends CelestialBodies{
 
-    private String name;
+   /* private String name;
     private double radius;
-    private double mass;
+    private double mass; flyttet til cel_bodies */
     private int effectiveTemp;
 
     public Star(String name, double radius, double mass, int effectiveTemp) {

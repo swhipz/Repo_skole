@@ -1,34 +1,41 @@
-package no.hiof.oleedvao.oblig2.models;
+package no.hiof.fredrjen.oblig2.models;
 
-public class Planet {
-    private String name;
+public class Planet extends CelestialBodies{
+
+   /* private String name;
     private double radius;
-    private double mass;
+    private double mass; flyttet til cel_bodies */
+    // lage konstanter
+    private static int kmRjup = 71492;
+    private static double kgMjup = 1.898E27;
+    private static int kmRearth= 6371;
+    private static double kgMearth = 5.972E24;
+    private static double sGravity = 6.7408E-11;
+
 
     public Planet(String name, double radius, double mass) {
         this.name = name;
         this.radius = radius;
         this.mass = mass;
     }
-
     public double radiusInKm() {
-        return radius * 71_492;
+        return radius * getKmRjup();
     }
 
     public double massInKg() {
-        return mass * 1.898E27;
+        return mass * getKgMjup();
     }
 
     public double radiusInRearth() {
-        return radiusInKm()/6371;
+        return radiusInKm()/getKmRearth();
     }
 
     public double massInMearth() {
-        return massInKg()/5.972E24;
+        return massInKg()/getKgMearth();
     }
 
     public double getSurfaceGravity() {
-        return (6.67408E-11 * massInKg()) / Math.pow(radiusInKm()*1000, 2);
+        return (getsGravity() * massInKg()) / Math.pow(radiusInKm()*1000, 2);
     }
 
     @Override
@@ -60,4 +67,25 @@ public class Planet {
     public void setMass(double mass) {
         this.mass = mass;
     }
+
+    public static int getKmRjup() {
+        return kmRjup;
+    }
+
+    public static double getKgMjup() {
+        return kgMjup;
+    }
+
+    public static int getKmRearth() {
+        return kmRearth;
+    }
+
+    public static double getKgMearth() {
+        return kgMearth;
+    }
+
+    public static double getsGravity() {
+        return sGravity;
+    }
 }
+
