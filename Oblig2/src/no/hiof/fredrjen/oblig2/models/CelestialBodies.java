@@ -1,9 +1,14 @@
 package no.hiof.fredrjen.oblig2.models;
 
-public class CelestialBodies {
+interface CelestialBodies {
 
-    private String name;
+    public String name;
     private double radius;
     private double mass;
+    public String svada = "";
+
+    static void konstruktor(String svada){
+
+    }
 
 }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/CelestialBodies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/CelestialBodies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644391459026</updated>
       <workItem from="1645107720526" duration="1805000" />
-      <workItem from="1645168793401" duration="1822000" />
+      <workItem from="1645168793401" duration="2567000" />
     </task>
     <servers />
   </component>

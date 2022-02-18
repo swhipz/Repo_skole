@@ -1,6 +1,6 @@
 package no.hiof.fredrjen.oblig2.models;
 
-public class Planet extends CelestialBodies{
+public class Planet implements CelestialBodies{
 
    /* private String name;
     private double radius;
