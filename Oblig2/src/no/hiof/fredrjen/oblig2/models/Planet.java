@@ -6,17 +6,18 @@ public class Planet extends CelestialBodies{
     private double radius;
     private double mass; flyttet til cel_bodies */
     // lage konstanter
-    private static int kmRjup = 71492;
-    private static double kgMjup = 1.898E27;
-    private static int kmRearth= 6371;
-    private static double kgMearth = 5.972E24;
-    private static double sGravity = 6.7408E-11;
+    private final static int kmRjup = 71492;
+    private final static double kgMjup = 1.898E27;
+    private final static double kgMearth = 5.972E24;
+    private final static double sGravity = 6.7408E-11;
 
 
     public Planet(String name, double radius, double mass) {
         this.name = name;
         this.radius = radius;
         this.mass = mass;
+
+        super()
     }
     public double radiusInKm() {
         return radius * getKmRjup();

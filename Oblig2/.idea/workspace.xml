@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/CelestialBodies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/Planet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/PlanetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/PlanetSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oblig2/no/hiof/fredrjen/oblig2/models/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/PlanetSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +42,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
@@ -96,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644391459026</updated>
-      <workItem from="1645107720526" duration="1615000" />
+      <workItem from="1645107720526" duration="1805000" />
+      <workItem from="1645168793401" duration="1822000" />
     </task>
     <servers />
   </component>
