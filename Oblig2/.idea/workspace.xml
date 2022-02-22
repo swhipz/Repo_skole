@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/CelestialBodies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/CelestialBodies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig2/models/Planet.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +91,7 @@
       <workItem from="1645168793401" duration="3880000" />
       <workItem from="1645177798484" duration="2509000" />
       <workItem from="1645514890911" duration="71000" />
-      <workItem from="1645528556597" duration="2510000" />
+      <workItem from="1645528556597" duration="3123000" />
     </task>
     <servers />
   </component>
