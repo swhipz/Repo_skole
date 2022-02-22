@@ -43,10 +43,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -91,7 +92,10 @@
       <option name="presentableId" value="Default" />
       <updated>1644391459026</updated>
       <workItem from="1645107720526" duration="1805000" />
-      <workItem from="1645168793401" duration="2567000" />
+      <workItem from="1645168793401" duration="3880000" />
+      <workItem from="1645177798484" duration="2509000" />
+      <workItem from="1645514890911" duration="71000" />
+      <workItem from="1645528556597" duration="2510000" />
     </task>
     <servers />
   </component>

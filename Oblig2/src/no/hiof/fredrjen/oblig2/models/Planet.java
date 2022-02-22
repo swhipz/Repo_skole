@@ -1,6 +1,6 @@
 package no.hiof.fredrjen.oblig2.models;
 
-public class Planet implements CelestialBodies{
+public class Planet extends CelestialBodies{
 
    /* private String name;
     private double radius;
@@ -9,15 +9,14 @@ public class Planet implements CelestialBodies{
     private final static int kmRjup = 71492;
     private final static double kgMjup = 1.898E27;
     private final static double kgMearth = 5.972E24;
+    private final static int kmRearth = 6371;
     private final static double sGravity = 6.7408E-11;
-
 
     public Planet(String name, double radius, double mass) {
         this.name = name;
         this.radius = radius;
         this.mass = mass;
 
-        super()
     }
     public double radiusInKm() {
         return radius * getKmRjup();
@@ -34,6 +33,8 @@ public class Planet implements CelestialBodies{
     public double massInMearth() {
         return massInKg()/getKgMearth();
     }
+
+
 
     public double getSurfaceGravity() {
         return (getsGravity() * massInKg()) / Math.pow(radiusInKm()*1000, 2);
@@ -78,7 +79,7 @@ public class Planet implements CelestialBodies{
     }
 
     public static int getKmRearth() {
-        return kmRearth;
+        return kmRearth() ;
     }
 
     public static double getKgMearth() {
