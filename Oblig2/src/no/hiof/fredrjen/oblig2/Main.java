@@ -34,7 +34,7 @@ public class Main {
         planets.add(neptune);
 
         // Oppretter planetsystemet "Solar system"
-        PlanetSystem planetSystem = new PlanetSystem("Solar system", sun, planets);
+        PlanetSystem planetSystem = new PlanetSystem("Solar system", 1, 1, sun, planets);
 
         // Skriver ut beskrivelse for planetsystemet
         System.out.println(planetSystem);

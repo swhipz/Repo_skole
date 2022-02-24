@@ -2,12 +2,12 @@ package no.hiof.fredrjen.oblig2.models;
 
 abstract class CelestialBodies {
 
-    public String name;
-    public double radius;
-    public double mass;
-    public String svada = "";
+    private String name;
+    private double radius;
+    private double mass;
+    private String svada = "";
 
-    public void konstruktor(String name, double radius, double mass){
+    public CelestialBodies(String name, double radius, double mass) {
         this.name = name;
         this.radius = radius;
         this.mass = mass;

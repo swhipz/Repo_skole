@@ -1,16 +1,18 @@
 package no.hiof.fredrjen.oblig2.models;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class PlanetSystem{
-    private String name;
+public class PlanetSystem extends CelestialBodies{
     private Star centerStar;
     private ArrayList<Planet> planets;
+    private String sName;
 
-    public PlanetSystem(String name, Star centerStar, ArrayList<Planet> planets) {
-        this.name = name;
+    public PlanetSystem(String name, double radius, double mass, Star centerStar, ArrayList<Planet> planets) {
+        super(name, radius, mass);
         this.centerStar = centerStar;
         this.planets = planets;
+
     }
 
     public Planet getBiggestPlanet() {
@@ -43,18 +45,9 @@ public class PlanetSystem{
 
     @Override
     public String toString() {
-        return "The planet system " + name + " has the center star " + centerStar.getName() +
+        return "The planet system " + getName() + " has the center star " + centerStar.getName() +
                 " and a total of " + planets.size() + " planets.";
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Star getCenterStar() {
         return centerStar;
     }

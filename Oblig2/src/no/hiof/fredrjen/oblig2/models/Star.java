@@ -8,18 +8,16 @@ public class Star extends CelestialBodies{
     private int effectiveTemp;
 
     public Star(String name, double radius, double mass, int effectiveTemp) {
-        this.name = name;
-        this.radius = radius;
-        this.mass = mass;
+        super(name, radius, mass);
         this.effectiveTemp = effectiveTemp;
     }
 
     public double radiusInKm() {
-        return radius * 695_700;
+        return this.getRadius() * 695_700;
     }
 
     public double massInKg() {
-        return mass * 1.98892E30;
+        return this.getMass()* 1.98892E30;
     }
 
     public double getSurfaceGravity() {
@@ -28,33 +26,9 @@ public class Star extends CelestialBodies{
 
     @Override
     public String toString() {
-        return "The star " + name + " has a radius of " + radius +
-                " Rsun, and a mass of " + mass + " Msun. It's effective temperature is " +
+        return "The star " + getName() + " has a radius of " + getRadius() +
+                " Rsun, and a mass of " + getMass() + " Msun. It's effective temperature is " +
                 effectiveTemp + " kelvin.";
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
-    public double getMass() {
-        return mass;
-    }
-
-    public void setMass(double mass) {
-        this.mass = mass;
     }
 
     public int getEffectiveTemp() {

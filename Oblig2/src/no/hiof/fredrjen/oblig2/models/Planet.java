@@ -13,17 +13,16 @@ public class Planet extends CelestialBodies{
     private final static double sGravity = 6.7408E-11;
 
     public Planet(String name, double radius, double mass) {
-        this.name = name;
-        this.radius = radius;
-        this.mass = mass;
+        super(name, radius, mass);
+
 
     }
     public double radiusInKm() {
-        return radius * getKmRjup();
+        return super.getRadius() * getKmRjup();
     }
 
     public double massInKg() {
-        return mass * getKgMjup();
+        return getMass() * getKgMjup();
     }
 
     public double radiusInRearth() {
@@ -40,34 +39,11 @@ public class Planet extends CelestialBodies{
         return (getsGravity() * massInKg()) / Math.pow(radiusInKm()*1000, 2);
     }
 
+
     @Override
     public String toString() {
-        return "The planet " + name + " has a radius of " + radius +
-                " Rjup, and a mass of " + mass + " Mjup.";
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
-    public double getMass() {
-        return mass;
-    }
-
-    public void setMass(double mass) {
-        this.mass = mass;
+        return "The planet " + getName() + " has a radius of " + getRadius() +
+                " Rjup, and a mass of " + getMass() + " Mjup.";
     }
 
     public static int getKmRjup() {
@@ -79,7 +55,7 @@ public class Planet extends CelestialBodies{
     }
 
     public static int getKmRearth() {
-        return kmRearth() ;
+        return kmRearth ;
     }
 
     public static double getKgMearth() {
