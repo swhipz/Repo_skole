@@ -1,4 +1,4 @@
-package no.hiof.fredrjen.oblig2.models;
+package no.hiof.fredrjen.oblig3.models;
 
 abstract class CelestialBody {
 
