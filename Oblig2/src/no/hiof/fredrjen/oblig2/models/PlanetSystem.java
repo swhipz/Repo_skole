@@ -1,19 +1,36 @@
 package no.hiof.fredrjen.oblig2.models;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class PlanetSystem extends CelestialBodies{
+public class PlanetSystem extends CelestialBody {
     private Star centerStar;
     private ArrayList<Planet> planets;
     private String sName;
 
     public PlanetSystem(String name, double radius, double mass, Star centerStar, ArrayList<Planet> planets) {
-        super(name, radius, mass);
+        super(name, radius, mass, centerStar.getCentralCelestialBody());
         this.centerStar = centerStar;
         this.planets = planets;
 
     }
+
+
+
+
+
+
+    public Planet findPlanet(String planetName) {
+        for (int i = 0; i < planets.size(); i++) {
+            if (planets.get(i).getName().equals(planetName)) {
+                return planets.get(i);
+            }
+        }
+        return null;
+    }
+
+
+
+
 
     public Planet getBiggestPlanet() {
         Planet biggestPlanet = planets.get(0);
@@ -62,5 +79,15 @@ public class PlanetSystem extends CelestialBodies{
 
     public void setPlanets(ArrayList<Planet> planets) {
         this.planets = planets;
+    }
+
+    @Override
+    public double getMassInKg() {
+        return 0;
+    }
+
+    @Override
+    public double getRadiusInKm() {
+        return 0;
     }
 }

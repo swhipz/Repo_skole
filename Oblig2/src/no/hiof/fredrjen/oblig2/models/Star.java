@@ -1,27 +1,29 @@
 package no.hiof.fredrjen.oblig2.models;
 
-public class Star extends CelestialBodies{
+public class Star extends CelestialBody {
 
    /* private String name;
     private double radius;
     private double mass; flyttet til cel_bodies */
+    private static double kgRsun = 1.98892E30;
+    private static double kmRsun = 	695_700;
     private int effectiveTemp;
 
-    public Star(String name, double radius, double mass, int effectiveTemp) {
-        super(name, radius, mass);
+    public Star(String name, double radius, double mass, int effectiveTemp, CelestialBody centralCelestialBody) {
+        super(name, radius, mass, centralCelestialBody);
         this.effectiveTemp = effectiveTemp;
     }
-
-    public double radiusInKm() {
-        return this.getRadius() * 695_700;
+    @Override
+    public double getRadiusInKm() {
+        return this.getRadius() * kmRsun;
     }
-
-    public double massInKg() {
-        return this.getMass()* 1.98892E30;
+    @Override
+    public double getMassInKg() {
+        return this.getMass()* kgRsun;
     }
 
     public double getSurfaceGravity() {
-        return (6.67408E-11 * massInKg()) / Math.pow(radiusInKm()*1000, 2);
+        return (6.67408E-11 * getMassInKg()) / Math.pow(getRadiusInKm()*1000, 2);
     }
 
     @Override
