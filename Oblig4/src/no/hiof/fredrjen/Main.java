@@ -12,7 +12,7 @@ import java.util.Collections;
 public class Main {
 
     public static void main(String[] args) {
-        Star sun = new Star("Sun", 1.0, 1.0, 5777);
+        //Star sun = new Star("Sun", 1.0, 1.0, 5777);
 /*
 	    PlanetSystem solarSystem = new PlanetSystem("Solar System", sun);
 
@@ -35,13 +35,17 @@ public class Main {
         Planet saturn = solarSystem.getPlanet("Saturn");
         Planet uranus = solarSystem.getPlanet("Uranus");
         Planet neptune = solarSystem.getPlanet("Neptune"); */
-        Planet planet1 = new Planet("Mækken", 2, 1, 1, 1, 1, sun);
-        Planet planet2 = new Planet("Slækken", 1, 1, 1, 1, 1, sun);
+        Planet planet1 = new Planet("Mækken", 5, 1, 1, 1, 1, null);
+        Planet planet2 = new Planet("Slækken", 2, 1, 1, 1, 1, null);
+        Planet planet3 = new Planet("Kækken", 8, 1, 1, 1, 1, null);
         ArrayList<Planet> planeter = new ArrayList<>();
         planeter.add(planet1);
         planeter.add(planet2);
+        planeter.add(planet3);
 
         Collections.sort(planeter);
+
+
 
         System.out.println(planeter);
 

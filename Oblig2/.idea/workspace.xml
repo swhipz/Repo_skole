@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="nå da">
-      <change afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/interfaces/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/PlanetSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/Oblig2_Solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/Oblig2_Solution.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/models/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/models/CelestialBody.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/models/NaturalSatellite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/models/NaturalSatellite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/models/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/models/Planet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/models/PlanetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/models/PlanetSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/out/production/Oblig2_Solution/no/hiof/larseknu/models/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/out/production/Oblig2_Solution/no/hiof/fredrjen/models/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/models/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/models/CelestialBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/models/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/models/NaturalSatellite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/models/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/models/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/models/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/models/PlanetSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oblig3_InklBonus/src/no/hiof/larseknu/models/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Oblig4/src/no/hiof/fredrjen/models/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/CelestialBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +99,7 @@
       <workItem from="1646309473368" duration="20205000" />
       <workItem from="1646411669697" duration="6163000" />
       <workItem from="1646724003566" duration="3646000" />
-      <workItem from="1646738232131" duration="599000" />
+      <workItem from="1646738232131" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="nå da">
       <created>1645708476382</created>

@@ -1,6 +1,8 @@
 package no.hiof.fredrjen.models;
 
-public abstract class CelestialBody implements Comparable<Planet>{
+import no.hiof.fredrjen.interfaces.FileHandler;
+
+public abstract class CelestialBody implements Comparable<CelestialBody>, FileHandler {
     private String name;
     private double radius, mass;
 
@@ -15,15 +17,16 @@ public abstract class CelestialBody implements Comparable<Planet>{
     // oppgave 2.1
 
     @Override
-    public int compareTo(Planet o) {
-
-        if (this.getRadiusInKm() < o.getRadiusInKm()) {
-            return -1;// disse. --- Bytt disse verdiene for å endre fra høyest til lavest
-        } else if (this.getRadiusInKm() > o.getRadiusInKm()) {
-            return 1; // disse.
-        } else {
-            return 0; // om de er like store returner null
+    public int compareTo(CelestialBody o) {
+        int planet = 0;
+        if (this.getRadiusInKm() < o.getRadiusInKm()){
+            return -1;
+        } else if (this.getRadiusInKm() > o.getRadiusInKm()){
+            return 1;
+        }else{
+            return 0;
         }
+
     }
 
     public abstract double getMassInKg();

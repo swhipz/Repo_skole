@@ -42,4 +42,14 @@ public class Planet extends NaturalSatellite{
     public String toString() {
         return String.format("%s has a radius of %s Rjup and a mass of %s Mjup", getName(), getRadius(), getMass());
     }
+
+    @Override
+    public String getFile() {
+        return null;
+    }
+
+    @Override
+    public int compareTo(PlanetSystem o) {
+        return 0;
+    }
 }

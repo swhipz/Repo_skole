@@ -1,6 +1,6 @@
 package no.hiof.fredrjen.models;
 
-public class Star extends CelestialBody{
+public abstract class Star extends CelestialBody{
     private double effectiveTemp;
 
     public static final double SOLAR_RADIUS_IN_KM = 695700;

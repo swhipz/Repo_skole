@@ -99,9 +99,9 @@ public abstract class PlanetSystem implements Comparable<PlanetSystem> {
     public int compareTo(PlanetSystem o) {
         int planet = 0;
         if (this.planets.get(planet).getRadiusInKm() < o.planets.get(planet).getRadiusInKm()){
-            return -1;
-        } else if (this.planets.get(planet).getRadiusInKm() > o.planets.get(planet).getRadiusInKm()){
             return 1;
+        } else if (this.planets.get(planet).getRadiusInKm() > o.planets.get(planet).getRadiusInKm()){
+            return -1;
         }else{
             return 0;
         }
