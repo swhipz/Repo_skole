@@ -1,4 +1,4 @@
-package no.hiof.larseknu.models;
+package no.hiof.fredrjen.models;
 
 public class Star extends CelestialBody{
     private double effectiveTemp;

@@ -2,7 +2,7 @@ package no.hiof.fredrjen.oblig3.models;
 
 import java.util.ArrayList;
 
-public class PlanetSystem extends CelestialBody {
+public class PlanetSystem extends CelestialBody implements Comparable<PlanetSystem>{
     private Star centerStar;
     private ArrayList<Planet> planets;
     private String sName;
@@ -89,5 +89,17 @@ public class PlanetSystem extends CelestialBody {
     @Override
     public double getRadiusInKm() {
         return 0;
+    }
+
+    @Override
+    public int compareTo(PlanetSystem o) {
+        if (this.getRadiusInKm() < o.getRadiusInKm()) {
+            return -1;
+        } else if (this.getRadiusInKm() > o.getRadiusInKm()) {
+            return 1;
+        }
+        else {
+            return 0;
+        }
     }
 }

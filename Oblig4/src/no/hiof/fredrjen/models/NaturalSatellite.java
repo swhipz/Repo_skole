@@ -1,4 +1,4 @@
-package no.hiof.larseknu.models;
+package no.hiof.fredrjen.models;
 
 public abstract class NaturalSatellite extends CelestialBody {
     private double semiMajorAxis, eccentricity, orbitalPeriod;

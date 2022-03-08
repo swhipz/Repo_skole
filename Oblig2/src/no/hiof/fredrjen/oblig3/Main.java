@@ -96,6 +96,7 @@ public class Main {
 
        // System.out.println("Earth is " + utskrift1 + " km away from the sun at 90 degrees.");
 
+        Com
 
     }
 }

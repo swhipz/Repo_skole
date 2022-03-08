@@ -1,8 +1,10 @@
-package no.hiof.larseknu.models;
+package no.hiof.fredrjen.models;
 
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class PlanetSystem {
+public abstract class PlanetSystem implements Comparable<PlanetSystem> {
     private String name;
     private Star centerStar;
     private ArrayList<Planet> planets = new ArrayList<>();
@@ -13,7 +15,7 @@ public class PlanetSystem {
     }
 
     public Planet getPlanet(String name) {
-        for (Planet aPlanet : planets ) {
+        for (Planet aPlanet : planets) {
             if (aPlanet.getName().equalsIgnoreCase(name)) {
                 return aPlanet;
             }
@@ -31,8 +33,7 @@ public class PlanetSystem {
         for (Planet currentPlanet : planets) {
             if (currentPlanet.getRadius() < smallestPlanet.getRadius()) {
                 smallestPlanet = currentPlanet;
-            }
-            else if (currentPlanet.getRadius() == smallestPlanet.getRadius() &&
+            } else if (currentPlanet.getRadius() == smallestPlanet.getRadius() &&
                     currentPlanet.getMass() < smallestPlanet.getMass()) {
                 smallestPlanet = currentPlanet;
             }
@@ -50,8 +51,7 @@ public class PlanetSystem {
         for (Planet currentPlanet : planets) {
             if (currentPlanet.getRadius() > largestPlanet.getRadius()) {
                 largestPlanet = currentPlanet;
-            }
-            else if (currentPlanet.getRadius() == largestPlanet.getRadius() &&
+            } else if (currentPlanet.getRadius() == largestPlanet.getRadius() &&
                     currentPlanet.getMass() > largestPlanet.getMass()) {
                 largestPlanet = currentPlanet;
             }
@@ -90,5 +90,21 @@ public class PlanetSystem {
         return name + " has " + planets.size() +
                 " planets that revolve around the star " +
                 centerStar.getName();
+    }
+    //----______-----______Oppgave 2.1 ______----------_____--
+    // initialiserer compareto-implementasjonen
+
+
+    @Override
+    public int compareTo(PlanetSystem o) {
+        int planet = 0;
+        if (this.planets.get(planet).getRadiusInKm() < o.planets.get(planet).getRadiusInKm()){
+            return -1;
+        } else if (this.planets.get(planet).getRadiusInKm() > o.planets.get(planet).getRadiusInKm()){
+            return 1;
+        }else{
+            return 0;
+        }
+
     }
 }

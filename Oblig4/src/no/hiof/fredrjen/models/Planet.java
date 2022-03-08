@@ -1,4 +1,4 @@
-package no.hiof.larseknu.models;
+package no.hiof.fredrjen.models;
 
 public class Planet extends NaturalSatellite{
     public static final double JUPITER_RADIUS_IN_KM = 71492;
