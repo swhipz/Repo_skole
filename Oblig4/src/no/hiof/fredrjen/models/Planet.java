@@ -52,4 +52,9 @@ public class Planet extends NaturalSatellite{
     public int compareTo(PlanetSystem o) {
         return 0;
     }
+
+    @Override
+    public int writeObjectsToFile() {
+        return 0;
+    }
 }

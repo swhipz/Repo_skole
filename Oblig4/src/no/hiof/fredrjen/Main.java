@@ -23,7 +23,7 @@ public class Main {
         solarSystem.addPlanet(new Planet("Mars", 0.04741089912158004, 3.3667017913593256E-4, 1.524, 0.093, 687, sun));
         solarSystem.addPlanet(new Planet("Jupiter",1.0, 1.0, 5.20440, 0.049, 4380, sun));
         solarSystem.addPlanet(new Planet("Saturn", 0.8145247020645666, 0.2994204425711275, 9.5826, 0.057, 10585, sun));
-        solarSystem.addPlanet(new Planet("Uranus", 0.35475297935433336, 0.04573761854583773,  19.2184, 0.046, 30660, sun));
+        solarSystem.addPlanet(new Planet("Uranus", 0 .35475297935433336, 0.04573761854583773,  19.2184, 0.046, 30660, sun));
         solarSystem.addPlanet(new Planet("Neptune",0.34440217087226543, 0.05395152792413066, 30.11, 0.010, 60225, sun));
 
         System.out.println(solarSystem.toString());
@@ -35,7 +35,7 @@ public class Main {
         Planet saturn = solarSystem.getPlanet("Saturn");
         Planet uranus = solarSystem.getPlanet("Uranus");
         Planet neptune = solarSystem.getPlanet("Neptune"); */
-        Planet planet1 = new Planet("Mækken", 5, 1, 1, 1, 1, null);
+        Planet planet1 = new Planet("Mækken", 9, 1, 1, 1, 1, null);
         Planet planet2 = new Planet("Slækken", 2, 1, 1, 1, 1, null);
         Planet planet3 = new Planet("Kækken", 8, 1, 1, 1, 1, null);
         ArrayList<Planet> planeter = new ArrayList<>();

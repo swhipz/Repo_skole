@@ -7,4 +7,6 @@ public interface FileHandler {
     String getFile();
 
     int compareTo(PlanetSystem o);
+
+    int writeObjectsToFile();
 }
