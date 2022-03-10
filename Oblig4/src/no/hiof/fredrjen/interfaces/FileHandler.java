@@ -8,5 +8,8 @@ public interface FileHandler {
 
     int compareTo(PlanetSystem o);
 
-    int writeObjectsToFile();
+    void writeObjectsToFile();
+
+    void readObjectsFromFile();
+
 }

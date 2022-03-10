@@ -1,0 +1,2 @@
+planet1 = new Planet("Jorden", 1, 1, 1, 1, 1);
+quit

@@ -5,6 +5,10 @@ import no.hiof.fredrjen.models.PlanetSystem;
 import no.hiof.fredrjen.models.Star;
 import org.w3c.dom.css.CSSUnknownRule;
 
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -44,10 +48,28 @@ public class Main {
         planeter.add(planet3);
 
         Collections.sort(planeter);
-
-
-
         System.out.println(planeter);
+
+        String lestTekst = "";
+
+        try (
+                BufferedReader readObjectsFromFile = new BufferedReader(new InputStreamReader(System.in));
+             FileWriter writeObjectsFromFile = new FileWriter("fromInput.txt", true);
+
+        ) {
+            while (!lestTekst.equals("quit")) {
+
+                System.out.println(": ");
+
+                lestTekst = readObjectsFromFile.readLine();
+
+                writeObjectsFromFile.append(lestTekst + "\n");
+
+            }
+
+        } catch (IOException ioException) {
+            System.err.println(ioException.getMessage());
+        }
 
 
 

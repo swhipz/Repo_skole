@@ -54,7 +54,12 @@ public class Planet extends NaturalSatellite{
     }
 
     @Override
-    public int writeObjectsToFile() {
-        return 0;
+    public void writeObjectsToFile() {
+
+    }
+
+    @Override
+    public void readObjectsFromFile() {
+
     }
 }

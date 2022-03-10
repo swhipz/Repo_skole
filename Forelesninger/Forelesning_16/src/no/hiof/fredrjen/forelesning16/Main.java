@@ -18,7 +18,7 @@ public class Main {
 
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
                 FileWriter fileWriter = new FileWriter("frainput.txt", true);
-                
+
                 ) {
 
 
