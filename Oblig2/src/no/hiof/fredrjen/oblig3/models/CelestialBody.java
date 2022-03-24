@@ -1,6 +1,6 @@
 package no.hiof.fredrjen.oblig3.models;
 
-abstract class CelestialBody implements Comparable<CelestialBody{
+abstract class CelestialBody implements Comparable<CelestialBody>{
 
     private String name;
     private double radius;

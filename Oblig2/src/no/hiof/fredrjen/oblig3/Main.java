@@ -67,7 +67,7 @@ public class Main {
         //-------------------------------------OBLIG-3------------------------------------------------
         //---------------------------------------------------------------------------------------------
         System.out.println("----_________---_______--2.2-----______----_____-");
-        System.out.println(planetSystem.findPlanetByName("Earth"));
+        System.out.println(planetSystem.findPlanetByName("Uranus"));
         System.out.println("------------------------------------------------- \n");
 
         System.out.println("____------______-------_2.6___------_____-_________-------_____-- \n");
@@ -96,7 +96,7 @@ public class Main {
 
        // System.out.println("Earth is " + utskrift1 + " km away from the sun at 90 degrees.");
 
-        Com
+
 
     }
 }

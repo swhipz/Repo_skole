@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5f4764-ce4c-4208-b093-793597a4fa6d" name="Changes" comment="nå da">
+      <change afterPath="$PROJECT_DIR$/../Forelesninger/GUI/src/forms/MoonWeightGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Forelesninger/GUI/src/forms/MoonWeightGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Forelesninger/GUI/src/forms/TestForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Forelesninger/GUI/src/forms/TestForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrjen/oblig3/models/CelestialBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +105,7 @@
       <workItem from="1646411669697" duration="6163000" />
       <workItem from="1646724003566" duration="3646000" />
       <workItem from="1646738232131" duration="672000" />
+      <workItem from="1648124426219" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="nå da">
       <created>1645708476382</created>
